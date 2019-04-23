@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IMG.TO | The New Image Gallery </title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style type="text/css">
+	body {
+		padding-top: 70px;
+		background-color: #333;
+	}
+	.jumbotron{
+		color: #ded;
+		background: #ecf0f1;
+		background: url("https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+		background-size: cover;
+		animation: slide 20s infinite;
+}
+@keyframes slide{
+	25%{
+		background: url("https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+		background-size: cover;
+	}
+	50%{
+		background: url("https://images.unsplash.com/photo-1516864356635-5688f0a3fe31?ixlib=rb-0.3.5&s=237900d4e39c9a345719a631b1f8e659&auto=format&fit=crop&w=750&q=80");
+		background-size: cover;
+	}
+	75%{
+		background: url("https://images.unsplash.com/photo-1505933112018-aae873439d01?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f1c8304a421757476a230740fd265af5&auto=format&fit=crop&w=731&q=80");
+		background-size: cover;
+	}
+	100%{
+		background: url("https://images.unsplash.com/photo-1490077476659-095159692ab5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=733&q=80");
+		background-size: cover;
+	}
+}
+	.navbar-inverse {
+		background: url("Header.png");	
+	}
+	.navbar-inverse .navbar-nav>li>a {
+		color: white;
+	}
+	.navbar-inverse .navbar-brand {
+		color: white;
+	}
+
+.row.flex {
+    display: inline-flex;
+    width: 100%;
+}
+	.flex {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#footerwell {
+	background: #444;
+}
+
+.well-lg {
+	color: white;
+}
+
+#btns {
+	background-color: #333;
+}
+
+#cont2 {
+	size: 100%;
+}
+
+.gmap {
+	float: right;
+	size: 100%;
+	display: block;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+.addressgm {
+	text-align: left;
+	line-height: 2px;
+	padding-top: 1px;
+}
+
+ul li:hover {
+	background-color: #233;
+	text-decoration-color: #000;
+	color: #000;
+}
+
+.sm-buttons img {
+	width: 55px;
+	height: 55px;
+}
+
+body text {
+	font-family: 'Oswald', sans-serif;
+} 
+
+</style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">	
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMG.TO</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Photos</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Sign Up</a></li>
+			<li><a href="#">Log In</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- Navbar -->
+<!-- Container -->
+<div class="container">
+<!-- Jumbotron -->
+<div class="jumbotron">
+	<h1><i class="fas fa-camera-retro"></i>IMG.TO</h1>
+	<p>The New Simple-To-Browse Image Gallery!</p>
+</div> 
+<!-- Jumbotron -->
+<!-- Grid -->
+<div class="row flex">
+<!-- Grid -->
+								 	
+								 	<div class="col-lg-4 col-sm-6">
+								 		<div class="thumbnail">
+								 			<img src="https://images.unsplash.com/photo-1516864356635-5688f0a3fe31?ixlib=rb-0.3.5&s=237900d4e39c9a345719a631b1f8e659&auto=format&fit=crop&w=750&q=80">
+								 		</div>
+								 	</div>
+								 	
+								 	<div class="col-lg-4 col-sm-6">
+								 		<div class="thumbnail">
+								 			<img src="https://images.unsplash.com/photo-1505933112018-aae873439d01?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f1c8304a421757476a230740fd265af5&auto=format&fit=crop&w=731&q=80">
+								 		</div>
+								 	</div>
+								 	
+								 	<div class="col-lg-4 col-sm-6">
+								 		<div class="thumbnail">
+								 			<img src="https://images.unsplash.com/photo-1490077476659-095159692ab5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=733&q=80">
+								 		</div>	
+								 	</div>
+</div>
+<div class="row flex">
+								 	<div class="col-lg-4 col-sm-6">
+								 		<div class="thumbnail">
+								 			<img src="https://images.unsplash.com/photo-1517017477324-de5b17dfc06d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e25c01f30bb5d57bbd449aad5338d17&auto=format&fit=crop&w=750&q=80">
+								 		</div>
+								 	</div>
+								 	
+								 	<div class="col-lg-4 col-sm-6">
+								 		<div class="thumbnail">
+								 			<img src="https://images.unsplash.com/photo-1498008018457-e4c2937641b2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=86dbb6b8b95fed864aece157c91f2123&auto=format&fit=crop&w=750&q=80">
+								 		</div>
+								 	</div>
+								 	
+								 	<div class="col-lg-4 col-sm-6">
+								 		<div class="thumbnail">
+								 			<img src="https://images.unsplash.com/photo-1495249536756-c5348250650c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=794289a3d21b25c02226e9298888b441&auto=format&fit=crop&w=750&q=80">
+								 		</div>	
+								 	</div>
+</div>
+<div class="row flex">
+								 	<div class="col-lg-4 col-sm-6">
+								 		<div class="thumbnail">
+								 			<img src="https://images.unsplash.com/photo-1494522358652-f30e61a60313?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c39e2e693011b17dfc47d070250419fc&auto=format&fit=crop&w=750&q=80">
+								 		</div>
+								 	</div>
+								 	
+								 	<div class="col-lg-4 col-sm-6">
+								 		<div class="thumbnail">
+								 			<img src="https://images.unsplash.com/photo-1490633874781-1c63cc424610?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b51259a5ff31138ff0059b896e2a2af3&auto=format&fit=crop&w=1500&q=80">
+								 		</div>
+								 	</div>
+								 	
+								 	<div class="col-lg-4 col-sm-6">
+								 		<div class="thumbnail">
+								 			<img src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=14fad02f7a44318650b93dd27fc8435b&auto=format&fit=crop&w=799&q=80">
+								 		</div>	
+								 	</div>
+								 <!-- Grid -->
+								 </div>
+								<!-- Grid -->
+								</div> 
+</div>
+<!-- Footer -->
+<!-- <div class="container" id="cont2"> -->
+<div class="well well-lg" id="footerwell">
+	<div class="gmap">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14160.567132016227!2d153.0095312!3d-27.464845!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf02a35bd721b500!2sSuncorp+Stadium!5e0!3m2!1sen!2sus!4v1555449127753!5m2!1sen!2sus" width="200" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div class="addressgm">
+			<!-- <p>Address</p> -->
+			<p>40 Castlemaine St, Milton QLD 4064</p>
+			<p>Suncorp Stadium, Australia</p>
+		</div>
+			</div>
+	<div class="sm-buttons"><p>Follow Us: <img src="twitter.png"><img src="facebook.png"><img src="pinterest.png"><img src="instagram.png"> </p></div>
+	<p>Any Questions: supportxxxx@img.to | (xxx)xxx-xxxx</p>
+	<input = textarea size="40px">
+	<button id="btns">Send</button>
+	<p>Copyright IMG.TO 20XX | All Rights Reserved</p>
+</div>
+<!-- </div> -->								 
+<!-- Footer -->								 
+								<!-- Container -->
+</body>
+</html>
